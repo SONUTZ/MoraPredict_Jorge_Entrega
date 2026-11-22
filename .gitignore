@@ -1,0 +1,23 @@
+# Entorno y credenciales
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Ejecuciones y reportes locales
+runs/
+reports/
+resultados/
+*.log
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.DS_Store
+Thumbs.db
